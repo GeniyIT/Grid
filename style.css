@@ -1,0 +1,198 @@
+* {
+    margin: 0;
+}
+
+.head {
+    display: grid;
+    grid-template-columns: 400px repeat(4, 100px) 150px 200px;
+    padding-left: 200px;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    position: fixed;
+}
+
+.item {
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.container_1 {
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+}
+
+.bg_ch {
+    width: 1360px;
+    height: 600px;
+    background-image: url(https://htmldemo.net/trio/trio/assets/img/shop-slider/shop-slide-1.jpg);
+    /* background-size: cover; */
+}
+
+.ch_grid {
+    display: grid;
+    grid-template-rows: 65px 50px 40px;
+    padding-top: 250px;
+    padding-left: 200px;
+}
+
+.ch_text_b {
+    font-family: "Poppins", sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.ch_text_m {
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.ch_text_s {
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #fdc657;
+}
+
+.container_2 {
+    width: 1164px;
+    margin: 150px auto 0;
+    display: grid;
+    grid-template-columns: repeat(3, 356px);
+    gap: 24px 24px;
+}
+
+.row_2 {
+    grid-row: 1/span 2;
+}
+
+.column_1 {
+    grid-column-start: 1
+}
+
+.column_2 {
+    grid-column-start: 2
+}
+
+.column_3 {
+    grid-column-start: 3;
+}
+
+.item_2_b {
+    height: 544px;
+    background-color: black;
+}
+
+.row{
+    grid-row-start: 1;
+}
+
+.item_2_c {
+    height: 260px;
+    background-color: black;
+}
+
+.light {
+    background-image: url(https://htmldemo.net/trio/trio/assets/img/shop-cate/shop-cate-1.jpg);
+
+}
+
+.hand {
+    background-image: url(https://htmldemo.net/trio/trio/assets/img/shop-cate/shop-cate-2.jpg);
+}
+
+.clock {
+    background-image: url(https://htmldemo.net/trio/trio/assets/img/shop-cate/shop-cate-5.jpg);
+}
+
+.woomen {
+    background-image: url(https://htmldemo.net/trio/trio/assets/img/shop-cate/shop-cate-3.jpg);
+}
+
+.wake {
+    background-image: url(https://htmldemo.net/trio/trio/assets/img/shop-cate/shop-cate-4.jpg);
+}
+
+.light_text, .wake_text {
+    display: grid;
+    grid-template-rows: 40px 52px;
+    padding-left: 50px;
+    padding-top: 100px;
+}
+
+.hand_text, .wooman_text {
+    display: grid;
+    grid-template-rows: 40px 52px;
+    padding-left: 220px;
+    padding-top: 100px;
+}
+
+.cont_2_text_b {
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.cont_2_text_h {
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: #666666;
+}
+
+.container_3 {
+    padding-left: 175px;
+    padding-top: 40px;
+}
+
+.products {
+    display: grid;
+    grid-template-columns: 356px 356px 356px;
+    gap: 30px 30px;
+    padding-top: 20px;
+    /* background-color: white; */
+}
+
+.products_item {
+    height: 480px;
+}
+
+.pr_item_1 {
+    background-image: url(https://htmldemo.net/trio/trio/assets/img/products/prod-03.jpg);
+}
+
+.pr_item_2 {
+    background-image: url(https://htmldemo.net/trio/trio/assets/img/products/prod-04.jpg);
+}
+
+.pr_item_3 {
+    background-image: url(https://htmldemo.net/trio/trio/assets/img/products/prod-09.jpg);
+}
+
+.pr_item_4 {
+    background-image: url(https://htmldemo.net/trio/trio/assets/img/products/prod-06.jpg);
+}
+
+.pr_item_5 {
+    background-image: url(https://htmldemo.net/trio/trio/assets/img/products/prod-01.jpg);
+}
+
+.pr_item_6 {
+    background-image: url(https://htmldemo.net/trio/trio/assets/img/products/prod-02.jpg);
+}
+
+.pr_item_7 {
+    background-image: url(https://htmldemo.net/trio/trio/assets/img/products/prod-02.jpg);
+}
+
+.pr_item_8 {
+    background-image: url(https://htmldemo.net/trio/trio/assets/img/products/prod-03.jpg);
+}
+
+.pr_item_9 {
+    background-image: url(https://htmldemo.net/trio/trio/assets/img/products/prod-07.jpg);
+}
